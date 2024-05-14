@@ -15,6 +15,7 @@ request(url, (err, response, body) => {
       if (character.includes('18')) {
         count++;
       }
-    }}
+    }
+  }
   console.log(count);
 });
